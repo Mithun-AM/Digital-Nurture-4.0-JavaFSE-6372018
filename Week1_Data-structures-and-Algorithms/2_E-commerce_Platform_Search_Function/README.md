@@ -1,10 +1,8 @@
-# 🔍 E-commerce Search Function — Analysis & Complexity
+# E-commerce Search Function
 
 This module explores the performance of linear and binary search in the context of an e-commerce product search system.
 
----
-
-## 📘 1. Understanding Asymptotic Notation
+## Understanding Asymptotic Notation
 
 Big O notation is a way to describe how an algorithm's runtime or space requirement grows as the input size increases. It helps developers analyze the efficiency of algorithms, especially as the size of the dataset grows, making it easier to compare different solutions without depending on hardware performance.
 
@@ -14,23 +12,17 @@ For example:
 - O(log n) is logarithmic time, commonly seen in binary search.
 - O(n²) is quadratic time, often the result of nested loops.
 
----
-
-## 📈 Search Case Scenarios
+## Search Case Scenarios
 
 In linear search, the best case occurs when the target element is the first in the list, requiring only one comparison. The average case assumes the element is somewhere in the middle, while the worst case happens when the element is at the end or not present at all, requiring a scan of the entire list.
 
 In binary search, the best case occurs when the target element is exactly at the middle of the sorted list. The average and worst cases both involve dividing the search space in half repeatedly until the element is found or the search space is empty. This gives binary search a consistent logarithmic time complexity.
 
----
-
-## 📊 4. Algorithm Analysis
+## Algorithm Analysis
 
 Linear search has a time complexity of O(n), which means the time to find an element increases directly with the number of products. It does not require the data to be sorted and is simple to implement, but becomes inefficient as the dataset grows.
 
 Binary search has a better time complexity of O(log n), meaning it can find elements much faster in large datasets. However, it requires the product list to be sorted in advance. Its implementation is slightly more complex but offers significant performance benefits for large databases.
-
----
 
 ## Algorithm to Use
 
