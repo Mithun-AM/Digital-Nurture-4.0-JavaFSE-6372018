@@ -1,0 +1,68 @@
+
+Table CUSTOMERS created.
+
+Elapsed: 00:00:00.023
+
+
+Table LOANS created.
+
+Elapsed: 00:00:00.017
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.020
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.002
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.005
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.002
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.018
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.002
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.001
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.001
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.085
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.013
+
+Reminder: Loan ID 103 for Customer 3 is due on 01-Jul-2025
+Reminder: Loan ID 104 for Customer 4 is due on 16-Jul-2025
+Reminder: Loan ID 101 for Customer 1 is due on 06-Jul-2025
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.083
