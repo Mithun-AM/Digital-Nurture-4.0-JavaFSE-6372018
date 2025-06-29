@@ -1,3 +1,6 @@
+// Exercise 4: Arrange-Act-Assert (AAA) Pattern, Test Fixtures, Setup and
+// Teardown Methods in JUnit
+
 package com.mithun;
 
 import org.junit.After;
@@ -6,7 +9,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class CalculatorFixtureTest {
+public class Exercise3 {
 
     private Calculator calculator;
 

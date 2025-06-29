@@ -1,9 +1,11 @@
+//Exercise 3: Assertions in JUnit
+
 package com.mithun;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class AssertionsTest {
+public class Exercise2 {
     @Test
     public void testAssertions() {
         // Assert equals

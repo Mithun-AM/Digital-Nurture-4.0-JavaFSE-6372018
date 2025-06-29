@@ -1,10 +1,12 @@
+//Exercise 1: Setting Up JUnit
+
 package com.mithun;
 
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class CalculatorTest {
+public class Exercise1 {
     @Test
     public void testAdd1() {
         Calculator calc = new Calculator();
