@@ -1,0 +1,33 @@
+1. src/main/java – Folder with application code
+
+	This folder contains all the main Java source code for the application. It includes the SpringLearnApplication class and any other components like controllers, services, and models.
+
+2. src/main/resources – Folder for application configuration
+
+	This is where all configuration files live. The most common is application.properties or application.yml, used to define server ports, logging levels, and database configurations.
+
+3. src/test/java – Folder with test code
+
+	This folder is for unit and integration tests. It follows the same package structure as main/java. IntelliJ/Eclipse and Maven recognize this as the test source directory.
+
+4. SpringLearnApplication.java – Main method walkthrough
+
+	This is the entry point of the Spring Boot application. The main() method calls SpringApplication.run(), which bootstraps the application and starts the embedded Tomcat server.
+
+5. Purpose of @SpringBootApplication
+
+	This annotation is a convenience annotation that combines:
+
+	@Configuration – makes this class a source of bean definitions
+
+	@EnableAutoConfiguration – tells Spring Boot to auto-configure the app based on dependencies
+
+	@ComponentScan – enables component scanning in the package and sub-packages
+
+6. pom.xml
+
+ A. Walkthrough of XML configuration
+	This file defines project dependencies, plugins, Java version, group ID, and artifact ID. Maven uses this file to build the project and manage libraries.
+
+ B. Dependency Hierarchy
+	This view shows all direct and transitive dependencies in a tree structure. It's useful for resolving version conflicts and understanding which libraries are included.

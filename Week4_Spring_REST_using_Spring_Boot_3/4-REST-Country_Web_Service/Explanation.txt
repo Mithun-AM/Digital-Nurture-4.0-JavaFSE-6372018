@@ -1,0 +1,28 @@
+1. What happens in the controller method?
+
+- @RestController tells Spring to return response as JSON directly.
+
+- @RequestMapping("/country") maps the URL to this method.
+
+Inside the method:
+
+  - A Spring context is loaded from country.xml.
+  - The country bean is fetched (Country country = context.getBean(...)).
+  - That object is returned.
+
+
+2. How the bean is converted into JSON reponse?
+
+- Spring Boot includes Jackson (from spring-boot-starter-web).
+- Jackson automatically converts the Country object into a JSON structure.
+- It uses getters (getCode(), getName()) to form:
+{
+  "code": "IN",
+  "name": "India"
+}
+
+3. In network tab of developer tools show the HTTP header details received
+- Pasted the screenshot in Outputs folder(Browser.png)
+
+4. In postman click on "Headers" tab to view the HTTP header details received
+- Pasted the screenshot in Outputs folder(Postman_Header_Tab.png)

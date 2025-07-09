@@ -1,0 +1,26 @@
+bean tag
+
+- <bean> defines a Spring-managed object.
+- id is the identifier used to retrieve it (context.getBean("country"))
+- class is the fully qualified name of the bean class (like com.cognizant.springlearn.Country)
+
+
+property tag
+
+- <property> sets a value for a property using the setter method
+- name="code" → calls setCode()
+- value="IN" → sets IN as the code
+
+
+ApplicationContext, ClassPathXmlApplicationContext
+
+- ApplicationContext is a Spring container interface
+- ClassPathXmlApplicationContext is its implementation that loads XML configs from src/main/resources
+
+
+What exactly happens when context.getBean() is invoked
+
+- Spring parses country.xml
+- It instantiates the Country bean using the no-arg constructor
+- It injects values using setCode() and setName() (setter injection)
+- context.getBean("country", Country.class) returns the configured object
